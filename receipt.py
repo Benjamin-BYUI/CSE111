@@ -15,13 +15,6 @@ def main():
     # Call the read_products function and stores the products dictionary in a variable named products.
     products = read_products()
 
-    # # Print the products dictionary.
-    # print("Products")
-    # for product_num, name_and_price in products.items():
-    #     pass
-    #     print(f"{product_num} {name_and_price}")
-    # print()
-
     # Call the process_request function.
     quantity, subtotal = process_request(products)
 

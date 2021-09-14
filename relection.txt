@@ -1,0 +1,35 @@
+Please take a few minutes to reflect on your experience in CSE 111 and
+think about the challenges, successes, and all that you've learned
+along the way.
+
+
+Now, please respond thoroughly (1 - 2 paragraphs for each question) to
+the following questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+In my final where I created many functions to complete individual tasks to compute and display balls bouncing on the screen, 
+creating functions simplified the organization of it. As I worked on one peace of code at a time (collision detection, 
+collision resolution, collision contract resolution, border detection, make sick, …) I made steady progress towards the final 
+completion goal. Once these functions were written, it was just a matter of creating a framework that calls the functions in a 
+proper sequence to make everything work. Without these functions, I would have had long if statement conditionals and blocks 
+(whereas with functions the if statement conditional is determined by a function call, and the if statement body just calls another function) as 
+well as code duplication for, for example, every time I need to make a person sick in the disease simulator. I just called make_sick 
+in every instance instead. So it makes the code much more readable and pleasing to look at, and more organized and understandable with 
+nice function names that describe what is going on. 
+
+
+2. In your judgment, what is the value of test functions?
+With a big program made of a whole bunch of function calls, it becomes near impossible to find where something goes wrong. By testing 
+each individual function and ensuring the results are what they’re meant to be, this reduces error chances. With tested functions, a 
+programmer can proceed with greater confidence and speed as these correct functions are called to get tasks done. It’s a big benefit 
+logically to test functions, and arguably even more so mentally. 
+
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+When things go wrong, I go straight to the terminal output. The IDE has some great pointers (general error name, line number, sometimes 
+even an exact note of what and where things are going wrong) so I take advantage of that. When things aren’t so obvious, I write flares. 
+I write print statements before and after troubling sections of code to see step by step what is happening. I specifically will print 
+out variable types and values usually. This is essentially the same as using debug mode, so for improving my process, I can become more 
+comfortable with how debug mode works in VS code. 
